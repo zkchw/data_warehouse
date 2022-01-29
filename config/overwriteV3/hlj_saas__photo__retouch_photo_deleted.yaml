@@ -1,0 +1,12 @@
+hive_database: biz
+source:
+  hlj_saas:
+    photo:
+      tables:
+        - table_name: retouch_photo_deleted
+          status: 'on'
+          split_column: id
+          num_mappers: 5
+          hive_table_suffix: ""
+          columns: "*"
+          mode: overwriteV3

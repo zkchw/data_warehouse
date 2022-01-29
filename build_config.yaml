@@ -1,0 +1,40 @@
+online:
+  base_path: /data/1
+  auth: -n scuser -p fire_hunliji
+  azkaban:
+    AZKABAN_USER: azkaban
+    AZKABAN_PWD: azkaban
+    AZKABAN_URL: http://150.158.58.149:8081
+    AZKABAN_URL_PY37: http://118.31.122.207:8082
+    AZKABAN_URL_PY37_NEW: http://121.41.4.106:8081
+    BUILD_PATH: ./build
+  db:
+    hlj_card:
+        host: rm-bp14d6pnq8e27tf51.mysql.rds.aliyuncs.com
+        port: 3306
+        username: scread
+        password: fire_scread09
+    hlj_saas:
+        host: rm-bp14d6pnq8e27tf51.mysql.rds.aliyuncs.com
+        port: 3306
+        username: scread
+        password: fire_scread09
+
+test:
+  base_path: /data1/git
+  auth: -n hdfs -p fire_hunliji
+  azkaban:
+    AZKABAN_USER: hadoop
+    AZKABAN_PWD: hadoop09081019
+    AZKABAN_URL: http://47.99.125.12:8082
+    AZKABAN_URL_PY37: http://121.196.225.18:8081
+    AZKABAN_URL_PY37_NEW: http://121.196.225.18:8081
+
+    BUILD_PATH: ./build
+  db:
+    hlj_saas:
+      host: testdb.vpc.cn
+      port: 3360
+      username: scuser
+      password: fire_hunliji
+

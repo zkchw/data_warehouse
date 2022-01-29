@@ -1,0 +1,13 @@
+hive_database: biz
+source:
+  hlj_card:
+    e_invitation:
+      tables:
+        - table_name: card_themes_v2
+          split_column: id
+          check_column: none
+          mode: overwrite
+
+
+
+
