@@ -13,7 +13,7 @@
 1 git           协同开发
 2 azkaban       任务调度
 3 sqoop         任务同步
-4 haddop+spark  数据存储+计算
+4 hadoop+spark  数据存储+计算
 5 mysql         组件元数据存储
 ```
 
